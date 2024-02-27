@@ -1,0 +1,57 @@
+.title{
+    font-family: var(--font-primary);
+    font-weight: 700;
+    line-height: 1.6;
+    color: var(--color-black1);
+}
+
+.title.one{
+   font-size: 3rem; 
+}
+
+.title.two{
+    font-size: 1.375rem;
+}
+
+.title.three{
+    font-size: 1.125rem;
+}
+
+.title.white{
+    color: var(--color-white);
+}
+
+.title.center{
+    text-align: center;
+}
+
+.number{
+    font-weight: var(--font-primary);
+    font-weight: 700;
+    font-size: 3.375rem;
+    color: var(--color-black2)
+}
+
+.text{
+    font-family: var(--font-primary);
+    font-weight: 400;
+    line-height: 2;
+    font-size: 1rem;
+    color: var(--color-black2);
+}
+
+.text.lg{
+    font-size: 1.25rem;
+}
+
+.text.bold{
+    font-weight: 700;
+}
+
+.text.white{
+    color: var(--color-white);
+}
+
+.text.center{
+    text-align: center;
+}
