@@ -9,3 +9,11 @@
 .background-black{
     background: var(--color-background-black);
 }
+
+.background-gradient-bottom{
+    background: linear-gradient(0deg, var(--color-light-yellow) 50%, var(--color-white) 50%);
+}
+
+.background-gradient-top{
+    background: linear-gradient(180deg, var(--color-light-yellow) 50%, var(--color-white) 50%);
+}
