@@ -32,3 +32,43 @@
 .container.sm{
     max-width: 400px;
 }
+
+.m-top1{
+    margin-top: 10px;
+}
+
+.m-top2{
+    margin-top: 20px;
+}
+
+.m-top3{
+    margin-top: 30px;
+}
+
+.m-top4{
+    margin-top: 40px;
+}
+
+.m-top5{
+    margin-top: 50px;
+}
+
+.m-bottom1{
+    margin-bottom: 10px;
+}
+
+.m-bottom2{
+    margin-bottom: 20px;
+}
+
+.m-bottom3{
+    margin-bottom: 30px;
+}
+
+.m-bottom4{
+    margin-bottom: 40px;
+}
+
+.m-bottom5{
+    margin-bottom: 50px;
+}
