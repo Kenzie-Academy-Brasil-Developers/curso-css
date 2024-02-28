@@ -1,0 +1,31 @@
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 400;
+
+    transition: 0.4s;
+}
+
+.btn.solid{
+    background: var(--color-yellow);
+    color: var(--color-black2);
+}
+
+.btn.solid:hover{
+    filter: brightness(0.9);
+}
+
+.btn.md{
+    padding: 0 30px;
+    height: 3.5625rem;
+}
+
+.btn.lg{
+    padding: 0 60px;
+    height: 4.6875rem;
+}
