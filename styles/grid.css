@@ -17,3 +17,18 @@
 .background-gradient-top{
     background: linear-gradient(180deg, var(--color-light-yellow) 50%, var(--color-white) 50%);
 }
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1120px;
+}
+
+.container.md{
+    max-width: 800px;
+}
+
+.container.sm{
+    max-width: 400px;
+}
