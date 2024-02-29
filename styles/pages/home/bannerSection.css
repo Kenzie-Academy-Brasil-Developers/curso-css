@@ -1,0 +1,15 @@
+.banner-section{
+    padding-top: 40px;
+}
+
+.banner-section .container{
+    background-image: url("/assets/BackgroundBannerSection1.jpg");
+    background-position: center center;
+    background-size: cover;
+
+    padding: 70px clamp(20px, 5vw, 90px) 170px;
+}
+
+.banner-section p{
+    max-width: 370px;
+}
