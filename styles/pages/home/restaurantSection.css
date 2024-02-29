@@ -1,0 +1,43 @@
+.restaurant-section{
+    padding: 80px 0 90px;
+}
+
+.restaurant-section ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 40px;
+}
+
+.restaurant-section ul li:first-child{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.restaurant-section ul li:first-child img{
+    margin-bottom: 40px;
+}
+
+.restaurant-section ul li:not(:first-child){
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.restaurant-section ul li:not(:first-child) img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+/*
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 3 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 2 / 3 / 3; }
+*/
