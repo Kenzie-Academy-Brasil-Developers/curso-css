@@ -8,8 +8,14 @@
     gap: 40px;
 }
 
+@media (max-width: 900px){
+    .testmonials-section ul{
+        grid-template-columns: 1fr;
+    }    
+}
+
 .testmonials-section ul li{
-    padding: 35px;
+    padding: 35px clamp(20px, 3vw, 35px);
 
     display: flex;
     flex-direction: column;
@@ -29,9 +35,10 @@
     align-items: center;
     justify-content: center;
 
-    width: 3.75rem;
-    height: 3.75rem;
+    width: clamp(3rem, 5vw, 3.75rem);
+    height: clamp(3rem, 5vw, 3.75rem);
     border-radius: 255px;
 
     background: var(--color-yellow);
 }
+
