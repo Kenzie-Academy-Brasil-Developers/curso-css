@@ -1,57 +1,57 @@
-.title{
-    font-family: var(--font-primary);
-    font-weight: 700;
-    line-height: 1.6;
-    color: var(--color-black1);
+.title {
+   font-family: var(--font-primary);
+   font-weight: 700;
+   line-height: 1.6;
+   color: var(--color-black1);
 }
 
-.title.one{
-   font-size: 3rem; 
+.title.one {
+   font-size: clamp(2rem, 5vw, 3rem);
 }
 
-.title.two{
-    font-size: 1.375rem;
+.title.two {
+   font-size: clamp(1.15rem, 3vw, 1.375rem);
 }
 
-.title.three{
-    font-size: 1.125rem;
+.title.three {
+   font-size: 1.125rem;
 }
 
-.title.white{
-    color: var(--color-white);
+.title.white {
+   color: var(--color-white);
 }
 
-.title.center{
-    text-align: center;
+.title.center {
+   text-align: center;
 }
 
-.number{
-    font-family: var(--font-primary);
-    font-weight: 700;
-    font-size: 3.375rem;
-    color: var(--color-black2)
+.number {
+   font-family: var(--font-primary);
+   font-weight: 700;
+   font-size: 3.375rem;
+   color: var(--color-black2);
 }
 
-.text{
-    font-family: var(--font-primary);
-    font-weight: 400;
-    line-height: 2;
-    font-size: 1rem;
-    color: var(--color-black2);
+.text {
+   font-family: var(--font-primary);
+   font-weight: 400;
+   line-height: 2;
+   font-size: 1rem;
+   color: var(--color-black2);
 }
 
-.text.lg{
-    font-size: 1.25rem;
+.text.lg {
+   font-size: 1.25rem;
 }
 
-.text.bold{
-    font-weight: 700;
+.text.bold {
+   font-weight: 700;
 }
 
-.text.white{
-    color: var(--color-white);
+.text.white {
+   color: var(--color-white);
 }
 
-.text.center{
-    text-align: center;
+.text.center {
+   text-align: center;
 }

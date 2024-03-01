@@ -1,32 +1,38 @@
-.restaurant-section{
-    padding: 80px 0 90px;
+.restaurant-section {
+   padding: 80px 0 90px;
 }
 
-.restaurant-section ul{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px 40px;
+.restaurant-section ul {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 30px 40px;
 }
 
-.restaurant-section ul li:first-child{
-    grid-row-start: 1;
-    grid-row-end: 4;
+@media (max-width: 780px) {
+   .restaurant-section ul {
+      grid-template-columns: 1fr;
+   }
 }
 
-.restaurant-section ul li:first-child img{
-    margin-bottom: 40px;
+.restaurant-section ul li:first-child {
+   grid-row-start: 1;
+   grid-row-end: 4;
 }
 
-.restaurant-section ul li:not(:first-child){
-    display: flex;
-    align-items: center;
-    gap: 30px;
+.restaurant-section ul li:first-child img {
+   margin-bottom: 40px;
 }
 
-.restaurant-section ul li:not(:first-child) img{
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
+.restaurant-section ul li:not(:first-child) {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+
+.restaurant-section ul li:not(:first-child) img {
+   width: clamp(60px, 16vw, 180px);
+   height: clamp(60px, 16vw, 180px);
+   object-fit: cover;
 }
 /*
 .parent {
