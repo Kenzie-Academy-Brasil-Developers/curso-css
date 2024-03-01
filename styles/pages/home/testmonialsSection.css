@@ -1,0 +1,37 @@
+.testmonials-section{
+    padding: 80px 0 90px;
+}
+
+.testmonials-section ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.testmonials-section ul li{
+    padding: 35px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testmonials-section ul li > div{
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.testmonials-section ul li > div span{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 255px;
+
+    background: var(--color-yellow);
+}
