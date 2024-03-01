@@ -1,0 +1,26 @@
+.gallery-section{
+    padding: 80px 0 90px;
+}
+
+.gallery-section .gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 40px;
+}
+
+.gallery-section .gallery img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-section .gallery img:first-child{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery-section .gallery img:last-child{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
