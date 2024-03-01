@@ -1,0 +1,13 @@
+.cta-section{
+    padding: 70px 0 80px;
+    background-image: url("/assets/BackgroundCtaSection.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.cta-section .flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
